@@ -117,7 +117,7 @@ rank_row AS(
 	    AND fd.symbol = a.symbol
 )
 -- Final query to extract relevant trade metrics and required features.
-select
+SELECT
 	dt_report,
 	login_hash,
 	server_hash,
